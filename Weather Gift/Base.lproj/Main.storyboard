@@ -62,8 +62,8 @@
                         <viewLayoutGuide key="safeArea" id="6Tk-OE-BBY"/>
                     </view>
                     <connections>
-                        <outlet property="addBarButton" destination="XoD-PP-bEC" id="LG9-Ev-J9P"/>
-                        <outlet property="editBarButton" destination="XoD-PP-bEC" id="fhv-oq-ezU"/>
+                        <outlet property="addBarButton" destination="eDX-wd-5Ei" id="T73-Ip-NEL"/>
+                        <outlet property="editBarButton" destination="kmG-22-5xS" id="T7c-JD-Mqc"/>
                         <outlet property="tableView" destination="dcZ-gW-BxE" id="ivu-xW-6CK"/>
                     </connections>
                 </viewController>

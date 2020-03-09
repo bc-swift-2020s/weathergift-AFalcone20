@@ -15,8 +15,11 @@ class LocationListViewController: UIViewController {
     
     var weatherLocations: [WeatherLocation] = []
     
-    @IBOutlet weak var editBarButton: UIToolbar!
+
+    @IBOutlet weak var editBarButton: UIBarButtonItem!
+    
     @IBOutlet weak var addBarButton: UIBarButtonItem!
+    
     
     override func viewDidLoad() {
         super.viewDidLoad()
@@ -46,8 +49,7 @@ class LocationListViewController: UIViewController {
         } else {
             tableView.setEditing(true, animated: true)
             sender.title = "Done"
-            addBarButton.isEnabled = false
-            print("2")
+            addBarButton.isEnabled = false            
         }
     }
     
